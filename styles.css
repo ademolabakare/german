@@ -1,0 +1,72 @@
+#jumbo{
+    background-image:url("https://www.planetware.com/wpimages/2020/01/germany-in-pictures-beautiful-places-to-photograph-porta-nigra.jpg");
+    height:50vh;
+    object-fit:contain;
+    filter:contrast(60%);
+background-position:center;
+
+}
+.banner{
+    justify-items:center;
+    padding-top:20px;
+}
+.jumbo-text{
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+}
+.sub{
+    font-size:15px;
+}
+
+#first{
+    margin-top:50px;
+}
+.head{
+    font-weight:bold;
+}
+#fourth{
+margin-top:50px;
+height:50vh;
+
+}
+#fifth{
+margin-bottom:5vh;
+margin-top:200px;
+}
+.blog-subtext{
+font-size:15px;
+font-weight:400;
+}
+.blog-text{
+text-align:justify;
+font-size:12px;
+}
+.blog-btn{
+height:30px;
+width:80px;
+border-style:none;
+background-color:black;
+color:white;
+}
+.blog-btn1{
+height:30px;
+width:120px;
+border-style:none;
+background-color:black;
+color:white;
+font-size:12px;
+}
+a{
+text-decoration:none;
+}
+@media(max-width:767px){
+.col-sm-3{
+display:none;
+
+}
+#fifth{
+margin-top:50px;
+}
+}
